@@ -2,13 +2,6 @@ package modelo;
 /**
  * Classe que implementa uma lista em java usando a classe {@link NoLista}.
  * @author wande
- * @see
- * {@link Pilha}.
- * <p>
- * <div style="display: flex; justify-content: left;align-items: center;">
- * <img style="border-radius: 50%; width: 5em" src="https://avatars3.githubusercontent.com/u/67854332?s=460&u=1d26e76b2262f767b7398552fb95b21657be311f&v=4">
- * <p><a style="margin-left: 1em;" href="https://github.com/magrelyn">Documentacao</a>
- * </div>
  */
 public class Lista {
 	
@@ -84,9 +77,7 @@ public class Lista {
 	
 	/**
 	 * Funcao para adicionar um elemento em uma posicao.
-	 * <p>
-	 * <code>public boolean adiciona(int posicao, String elemento) {}
-	 * <p>
+	 * 
 	 * @param posicao refere-se a posicao na lista.
 	 * @param elemento refere-se ao elemento a ser adicionado.
 	 * @return verdadeiro caso seja possivel adicionar na posicao especificada, falso caso nao.
