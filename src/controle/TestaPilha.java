@@ -24,6 +24,17 @@ public class TestaPilha {
 		
 		System.out.println(pilha1.isEmpty());
 		
+		// copia 
+		
+		Pilha p2 = new Pilha();
+		
+		pilha1.push("6");
+		pilha1.push(")");
+		pilha1.push("6");
+		
+		pilha1.copia(p2);
+		
+		System.out.println(p2.toString());
 
 	}
 

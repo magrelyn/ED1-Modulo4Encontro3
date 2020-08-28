@@ -33,4 +33,5 @@ public class Fila extends Lista {
 	public Object last() {
 		return (Object) this.busca(this.tamanho() - 1);
 	}
+	
 }
