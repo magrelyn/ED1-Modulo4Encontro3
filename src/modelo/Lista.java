@@ -32,6 +32,12 @@ public class Lista {
 
 	// insere valor no fim da lista
 	// retorna true (sucesso) ou false
+	/**
+	 * Insere valor no fim da lista.
+	 * 
+	 * @param valor refere-se ao elemento que sera adicionado.
+	 * @return true caso seja possivel adicionar, false caso nao.
+	 */
 	public boolean adiciona(String valor) {
 
 		// retorna false se o valor for uma string vazia

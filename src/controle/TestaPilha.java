@@ -2,7 +2,7 @@ package controle;
 
 import modelo.Pilha;
 
-public class TestaListaEncadeada {
+public class TestaPilha {
 
 	public static void main(String[] args) {
 
@@ -16,6 +16,13 @@ public class TestaListaEncadeada {
 		
 		System.out.println(pilha1.pop());
 		System.out.println(pilha1.toString());
+		
+		System.out.println(pilha1.top());
+		
+		pilha1.pop();
+		pilha1.pop();
+		
+		System.out.println(pilha1.isEmpty());
 		
 
 	}

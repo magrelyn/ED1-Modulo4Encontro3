@@ -29,10 +29,18 @@ public class Pilha extends Lista {
 		Object resp;
 		resp = (Object) this.busca(this.topo-1);
 		this.remove(this.topo-1);
+		this.topo--;
 		return resp;
 	}
-
 	
-	
+	public boolean isEmpty() {
+		if(this.topo == 0)
+			return true;
+		else 
+			return false;
+	}
 
+	public Object top() {
+		return this.busca(this.topo-1);
+	}
 }
