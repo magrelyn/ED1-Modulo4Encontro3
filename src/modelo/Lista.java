@@ -30,8 +30,6 @@ public class Lista {
 		}
 	}
 
-	// insere valor no fim da lista
-	// retorna true (sucesso) ou false
 	/**
 	 * Insere valor no fim da lista.
 	 * 
