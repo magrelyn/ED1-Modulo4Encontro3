@@ -47,7 +47,7 @@ public class Pilha extends Lista {
 	public void copia(Pilha p) {
 		Pilha aux = new Pilha();
 
-		for (int i = 0; i < this.topo; i++) {
+		for (int i = this.topo-1; i >=0 ; i--) {
 			aux.push(this.busca(i));
 		}
 

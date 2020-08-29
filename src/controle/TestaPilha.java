@@ -28,13 +28,27 @@ public class TestaPilha {
 		
 		Pilha p2 = new Pilha();
 		
-		pilha1.push("6");
-		pilha1.push(")");
-		pilha1.push("6");
-		
+		pilha1.push("X");
+		pilha1.push("Z");
+		pilha1.push("N");
+		pilha1.push("W");
+
 		pilha1.copia(p2);
 		
+		System.out.println(pilha1.toString());
 		System.out.println(p2.toString());
+
+		
+		for (int i = 0; i < 4; i++) {
+			System.out.print(pilha1.pop() + ", ");
+		}
+		
+		System.out.println("\n");
+		
+		for (int i = 0; i < 4; i++) {
+			System.out.print(p2.pop() + ", ");
+		}
+		
 
 	}
 
